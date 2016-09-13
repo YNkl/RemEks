@@ -3,7 +3,8 @@
 body{
     font-family: 'PT Sans', arial;
     font-size: 14px;
-    background-color: black;
+    background-color: white;
+    text-align: center;
 }
 A{
     text-decoration: none;  
@@ -13,25 +14,11 @@ A:hover{
     text-decoration: none; 
 }
 
-.headLogo{
-    text-align: center;
-}
-.headMenu{
-    text-align: center;
-}
-
-.jumbotron{
-    padding-top: 30px;
-    border-radius: 0px !important;
-    background-image: url(../images/header.png);
+#mainPage {
+    margin: 0 auto;
+    width: 1200px;
     height: 698px;
-}
-
-.logo{
-    margin-left: 30px;
-}
-.nav{
-    font-size: 12pt;
-    text-align: center;
-    margin-top: 50px;
+    -webkit-box-shadow: -1px -1px 22px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -1px 22px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -1px 22px -2px rgba(0, 0, 0, 0.75);
 }
