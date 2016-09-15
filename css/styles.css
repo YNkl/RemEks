@@ -13,13 +13,217 @@ A{
 A:hover{
     text-decoration: none; 
 }
+input, 
+input:active, 
+input:focus {
+    outline: none;
+}
+
+li:after {
+    background: url(images/tick.png);
+    width: 55px;
+    height: 41px;
+    margin-left: 40px;
+}
+li {
+    list-style-type: none;
+}
 
 #mainPage {
     margin: 0 auto;
     width: 1200px;
-    height: 698px;
-    background: url(images/headerBG.png);
+    height: 3800px;
     -webkit-box-shadow: -1px -1px 22px -2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -1px -1px 22px -2px rgba(0, 0, 0, 0.75);
     box-shadow: -1px -1px 22px -2px rgba(0, 0, 0, 0.75);
 }
+
+#head {
+    width: 1200px;
+    height: 698px;
+    background: url(images/headerBG.png);  
+    position: relative;
+}
+
+#head #logo {
+    background: url(images/logo.png);
+    width: 204px;
+    height: 137px;
+    position: absolute;
+    left: 89px;
+    top: 29px;
+}
+
+#utp{
+    width: 531px;
+    height: 363px;
+    text-align: left;
+    position: absolute;
+    top: 270px;
+    left: 84px;
+}
+
+#utp h2{
+    margin: 0;
+    color: #cee000;
+    color: #cee000;
+    font: 900 70px 'PT Sans';
+    line-height: 1;
+}
+#utp h3{
+    color: #ffffff;
+    font: 900 50px 'PT Sans';
+    margin: 0;
+}
+#utp span{
+    font: 400 20px / 28px 'Myriad Pro';
+    color: #ffffff;
+    margin-top: 60px;
+    display: block;
+}
+
+#number{
+    font: 400 30px / 22px 'Myriad Pro';
+    color: #ffffff;
+    position: absolute;
+    left: 93px;
+    top: 193px;
+}
+
+#navMenu{
+    top: 44px;
+    margin: 0; 
+    font: 400 18px / 22px 'Myriad Pro';
+    color: #ffffff;
+    position: absolute;
+    right: 110px;
+}
+
+#navMenu li{
+    display: inline-block;
+    margin-right: 20px;
+}
+#navMenu:last-child{
+    background-color: #1b1b1b;
+    margin-right: 0px;
+}
+
+#application{
+    width: 400px;
+    height: 421px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px -1px 22px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -1px 22px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -1px 22px -2px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    right: 84px;
+    top: 244px;    
+}
+
+#application label {
+    font: 400 30px 'Myriad Pro';
+    margin: 20px 20;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+#application p {
+    font: 400 18px / 25px 'Myriad Pro';
+    text-align: left;
+    margin: 10px 28px;
+    color: #b5b5b5;
+}
+
+#head input{
+    background: none;
+    border-radius: 5px;
+    width: 353px;
+    height: 57px;
+    background-color: #eeeeee;
+    font: 400 20px / 25px 'Myriad Pro';
+    color: #b5b5b5;
+    border: none;
+    margin: 10px 10px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+#head input[type="submit"]{
+    background-color: #217e00;
+    height: 57px;
+    width: 353px;
+    color: #ffffff;
+    margin-top: 50px;
+    font: 400 30px 'Myriad Pro';  
+    padding: 0;
+}
+
+.yellowLine{
+    width: 431px;
+    height: 9px;
+    background: url(images/yellowLine.png);
+    right: 0px;
+    position: absolute;
+}
+
+#advantages{
+    position: relative;
+    width: 1200px;
+    height: 784px;
+}
+#advantages h1 {
+    font: 700 36px / 80px 'PT Sans';
+    color: #217e00;
+    margin: 0;
+    text-align: right;
+    margin-right: 163px;
+    margin-top: 30px;
+}
+#advantages .yellowLine {
+}
+#advantages ul {
+    position: absolute;
+    right: 165px;
+    top: 130px;
+    font:400 36px 'Myriad Pro';
+    color: #006009;
+    text-align: right;
+    width: 700px;
+    height: 459px;
+}
+#advantages li {
+    margin: 40px 0px;
+}
+#advantages #lenya {
+    position: absolute;
+    background: url(images/lenya.png);
+    width: 399px;
+    height: 581px;
+    bottom: 0px;
+    left: 84px;
+    z-index: 2;
+}
+#advantages #bottomBG {
+    width: 871px;
+    height: 164px;
+    background: url(images/botLine.png);
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    font: 400 36px 'PT Sans';
+    text-align: left;
+    padding-left: 135px;
+    padding-top: 30px;
+    padding-right: 50px;
+    color: #ffffff;
+}
+.bottomLine {
+    background: url(images/bottomLine.png);
+    width: 1200px;
+    height: 14px;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+
